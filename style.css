@@ -1,0 +1,584 @@
+body
+{
+    margin: 0%;
+}
+
+/* Title page */
+
+.container-fluid{
+    padding: 0%;
+}
+
+nav {
+    margin: 1% 3%;
+}
+
+picture{
+    display: block;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.hamburger-icon {
+    border-style: none;
+}
+
+.navbar{
+    --bs-navbar-toggler-focus-width: 0rem;
+}
+
+.brand-name {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.navigation-items {
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+}
+
+.non-button-items {
+    padding-top: 10px;
+}
+
+.nav-contact-button {
+    color: black;
+    background-color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav-contact-button:hover {
+    background-color:rgba(255,255,255,0.3);
+    color: white;
+}
+
+.title-heading {
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    left: 26%;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.title-arrow {
+    position: absolute;
+    top: 325px;
+    left: 49%;
+}
+
+/* Middle section */
+
+.col-lg-6
+{
+    padding: 0px;
+}
+
+.row{
+    margin: 0%;
+}
+
+/* row-1 */
+.mid-item-1-content
+{
+    color: #23303e;
+    padding: 10% 7% 10% 10%;
+    background-color: #fff2f0;
+}
+
+.mid-item-1-content h1
+{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 8%;
+}
+
+.mid-item-1-content p
+{
+    font-weight: 600;
+    opacity: 70%;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.mid-item-1-content a
+{
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-top: 8%;
+    text-decoration: none;
+    border-bottom: 5px outset rgba(255,240,0,0.5);
+
+}
+
+.mid-item-1-content a:hover
+{
+    border-bottom: 5px outset rgba(255,240,0,0.8);
+}
+
+/* row-2 */
+.mid-item-2-content
+{
+    color: #23303e;
+    padding: 10% 7% 10% 7%;
+    background-color: #fff2f0;
+}
+
+.mid-item-2-content h1
+{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 8%;
+}
+
+.mid-item-2-content p
+{
+    font-weight: 600;
+    opacity: 70%;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.mid-item-2-content a
+{
+    color: black;
+    font-family: 'Fraunces', serif;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-top: 8%;
+    text-decoration: none;
+    border-bottom: 5px outset rgba(255,0,0,0.2);
+}
+
+.mid-item-2-content a:hover
+{
+    border-bottom: 5px outset rgba(255,0,0,0.5);
+}
+
+
+/* row-3 */
+
+.row-3-col-1{
+    position: relative;
+}
+
+
+.mid-item-3
+{
+    text-align: center;
+    color: #25564b;
+    padding: 0% 20% ;
+    position: absolute;
+    bottom: 10%;
+}
+
+.mid-item-3 h3
+{
+    font-family: 'Fraunces', serif;
+    margin: 25px 0px;
+}
+
+.mid-item-3 p
+{
+    opacity: 70%;
+    font-weight: 700;
+}
+
+.row-3-col-2{
+    position: relative;
+}
+
+.mid-item-4
+{
+    text-align: center;
+    color: #19536b;
+    padding: 0% 20% ;
+    position: absolute;
+    bottom: 10%;
+}
+
+.mid-item-4 h3
+{
+    font-family: 'Fraunces', serif;
+    margin: 25px 0px;
+}
+
+.mid-item-4 p
+{
+    opacity: 70%;
+    font-weight: 700;
+}
+
+
+/* Testimonial Section */
+
+.testimonial
+{
+    padding: 10%;
+    text-align: center;
+    color: #23303e;
+    background-color: #fff2f0;
+}
+
+.testimonial h4
+{
+    margin-bottom: 50px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    opacity: 40%;
+}
+
+.testimonial img
+{
+    width: 15%;
+    border-radius: 50%;
+    padding: 10% 0%;
+}
+
+.statement
+{
+    font-weight: 700;
+    opacity: 80%;
+    line-height: 1.75;
+}
+
+.author
+{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 900;
+    opacity: 90%;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.designation
+{
+    font-weight: 500;
+    opacity: 35%;
+}
+
+/* Gallery section */
+
+.gallery-item
+{
+    padding: 0px;
+    display: inline;
+}
+
+/* .mobile{
+    display: none;
+} */
+
+/* Footer */
+
+footer
+{
+    background-color:#4fc4ad;
+    color: #25564b;
+}
+
+footer h3
+{
+    padding-top: 7%;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 800;
+    opacity: 90%;
+}
+
+footer p
+{
+    display: inline-block;
+}
+
+.footer-items
+{
+    padding: 2% 37%;
+}
+
+.footer-items p
+{
+    padding: 0% 8%;
+    font-weight: 500;
+    opacity: 70%;
+}
+
+.footer-icons
+{
+    padding: 0% 30%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.footer-items p:hover
+{
+    color: white;
+}
+
+.footer-icons i:hover
+{
+    color:white
+}
+
+
+
+
+
+
+
+
+/* ############################################### */
+
+/* Custome Style for Mobile Screen */
+
+@media screen and (max-width:500px){
+
+/* Title */
+
+nav {
+     margin: 1% 5%;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background-color: #fff2f0;
+}
+
+.navigation-items {
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 70%;
+    margin-right: 0px;
+    color: #23303e;
+}
+
+.non-button-items {
+    padding-top: 0px;
+}
+
+.nav-item{
+    margin-top: 20px;
+}
+
+.nav-contact-button{
+    background-color: #fad400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.nav-contact-button:hover {
+    background-color:rgba(255,240,0,0.8);
+    color: white;
+}
+
+.title-heading {
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: auto;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.title-arrow {
+    position: absolute;
+    top: 290px;
+    left: 47%;
+}
+
+/* Middle */
+
+.mid-item-1-content
+{
+    color: #23303e;
+    padding: 7% 7% 15%;
+    background-color: #fff2f0;
+    text-align: center;
+}
+
+.mid-item-1-content h1
+{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 8%;
+    padding:10% 10% 0% 10%;
+}
+
+.mid-item-1-content p
+{
+    font-weight: 600;
+    opacity: 70%;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+/* row-2 */
+.mid-item-2-content
+{
+    color: #23303e;
+    padding: 7% 7% 15%;
+    background-color: #fff2f0;
+    text-align: center;
+}
+
+.mid-item-2-content h1
+{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 8%;
+    padding:10% 10% 0% 10%;
+}
+
+.mid-item-2-content p
+{
+    font-weight: 600;
+    opacity: 70%;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+/* row-3 */
+
+.mid-item-3
+{
+    padding: 0% 5% ;
+    bottom: 7%;
+}
+
+.mid-item-3 h3{
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
+.mid-item-3 p
+{
+    opacity: 70%;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.mid-item-4
+{
+    padding: 0% 5% ;
+    bottom: 7%;
+}
+
+.mid-item-4 h3{
+    font-weight: 900;
+    font-size: 1.75rem;
+}
+
+.mid-item-4 p
+{
+    opacity: 70%;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Testimonial Section */
+
+.testimonial
+{
+    padding: 5%;
+    text-align: center;
+    color: #23303e;
+    background-color: #fff2f0;
+}
+
+.testimonial h4
+{
+    margin: 50px 0px 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: medium;
+    opacity: 40%;
+}
+
+.testimonial img
+{
+    width: 20%;
+    border-radius: 50%;
+    padding: 10% 0%;
+}
+
+.statement
+{
+    font-weight: 700;
+    opacity: 80%;
+    line-height: 1.75;
+}
+
+.author
+{
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 900;
+    opacity: 90%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.designation
+{
+    font-weight: 500;
+    opacity: 35%;
+}
+
+
+/* Gallery */
+
+/* .desktop{
+    display: none;
+}
+
+.mobile{
+    display:block;
+} */
+
+/* Footer */
+
+footer h3
+{
+    padding-top: 10%;
+}
+
+.footer-items
+{
+    padding: 7% 5%;
+}
+
+.footer-items p
+{
+    padding: 0% 8%;
+}
+
+.footer-icons
+{
+    padding: 0% 7%;
+    padding-bottom: 15%;
+}
+    
+}
